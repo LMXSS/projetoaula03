@@ -12,7 +12,7 @@ Sistema criado para acesso ao SQLServer com Dapper.
 ## Script do banco de dados:
 
 ```sql
-	CREATE TABLE [dbo].[PESSOA] (
+	CREATE TABLE PESSOA (
     		[IDPESSOA]       UNIQUEIDENTIFIER NOT NULL,
     		[NOME]           NVARCHAR (150)   NOT NULL,
     		[CPF]            NVARCHAR (11)    NOT NULL,
